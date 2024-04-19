@@ -30,7 +30,6 @@ const Offers = () => {
               <p>Изненадайте любимия човек с романтичен уикенд в Хотел Парадайс. Валидно през цялата година.</p>
           <button className="close-button" onClick={handleClose}>Затвори</button>
             </div>
-            {/* Добавете още оферти по ваш избор */}
           </div>
         </animated.div>
       )}
