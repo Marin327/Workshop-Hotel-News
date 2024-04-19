@@ -14,9 +14,7 @@ const HomePageForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Вашата логика за обработка на формата тук
     console.log('Form submitted:', formData);
-    // Изчистване на формата след изпращане
     setFormData({ name: '', email: '', message: '' });
   };
 
