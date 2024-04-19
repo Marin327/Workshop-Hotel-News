@@ -2,16 +2,14 @@ import React, { useState } from 'react';
 import { useSpring, animated } from 'react-spring';
 
 const Uslugi = ({ onClose }) => {
-  // Дефинирайте стейт за видимостта на компонента
   const [visible, setVisible] = useState(true);
 
-  // Използвайте useSpring за дефиниране на анимацията
   const uslugiAnimation = useSpring({
-    opacity: visible ? 1 : 0, // Прозрачността зависи от видимостта
-    transform: visible ? 'translateX(0)' : 'translateX(100%)', // Преместване на X ос при показване и скриване
+    opacity: visible ? 1 : 0,
+    transform: visible ? 'translateX(0)' : 'translateX(100%)', 
   });
 
-  // Функция за скриване на компонента
+
   const hideUslugi = () => {
     setVisible(false);
   };
