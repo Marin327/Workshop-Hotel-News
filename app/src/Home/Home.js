@@ -15,24 +15,24 @@ const Home = () => {
 
   const [showOffers, setShowOffers] = useState(false);
   const [showForm, setShowForm] = useState(false);
-  const [showUslugi, setShowUslugi] = useState(false);  // Добави стейт за видимостта на услугите
+  const [showUslugi, setShowUslugi] = useState(false);  
 
   const toggleOffers = () => {
     setShowOffers(!showOffers);
-    setShowForm(false);  // Затваряне на формата при превключване на офертите
-    setShowUslugi(false); // Затваряне на услугите при превключване на офертите
+    setShowForm(false);  
+    setShowUslugi(false);
   };
 
   const toggleForm = () => {
     setShowForm(!showForm);
-    setShowOffers(false); // Затваряне на офертите при отваряне на формата
-    setShowUslugi(false); // Затваряне на услугите при отваряне на формата
+    setShowOffers(false);
+    setShowUslugi(false); 
   };
 
   const toggleUslugi = () => {
     setShowUslugi(!showUslugi);
-    setShowOffers(false); // Затваряне на офертите при отваряне на услугите
-    setShowForm(false); // Затваряне на формата при отваряне на услугите
+    setShowOffers(false); 
+    setShowForm(false); 
   };
 
   return (
