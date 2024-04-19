@@ -110,7 +110,7 @@ const Room = ({ room }) => {
       <p>{room.price}</p>
       <button onClick={handleReservation}>Резервирай</button>
 
-      {/* Форма за успешно направена резервация */}
+
       {showSuccessMessage && (
         <div className="success-form">
           <div className="success-message">
