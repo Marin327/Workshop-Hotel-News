@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import News from '../News/News'; // Импортирайте компонента с новини
+import News from '../News/News'; 
 import '../App.css';
 
 const Gallery = () => {
-  const imageFolder = '/images'; // Променете този път според структурата на вашия проект
+  const imageFolder = '/images'; 
 
   const images = [
     'images1.jpg',
@@ -50,8 +50,6 @@ const Gallery = () => {
           />
         </div>
       )}
-
-      {/* Добавете компонента с новини тук */}
       <News />
     </div>
   );
