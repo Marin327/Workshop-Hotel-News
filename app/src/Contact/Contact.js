@@ -1,5 +1,5 @@
 import React from 'react';
-import '../App.css'; // Добави стиловете на Contact
+import '../App.css'; 
 
 const Contact = () => {
   return ( 
