@@ -16,7 +16,6 @@ const App = () => {
     <div className="app">
       <Header />
       <div className="content">
-        {/* Използвай условни оператори за показване на компонентите */}
         {currentPath === '/' && <Home />}
         {currentPath === '/contact' && <Contact />}
         {currentPath === '/rooms' && <Rooms />}
