@@ -39,7 +39,7 @@ const ReservationForm = () => {
   };
 
   const handleGoBack = () => {
-    window.location.href = '/'; // Пренасочване към началната страница
+    window.location.href = '/'; 
   };
 
   return (
